@@ -1,4 +1,4 @@
-**PHP Snacks blocco 1**
+**PHP Snacks - Blocco 1**
 
 ### Cartella/Repo: php-snacks-b1
 #### Snack 1
