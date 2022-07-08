@@ -19,3 +19,5 @@ function verifyAccess($name, $email, $age)
 var_dump($name);
 var_dump($email);
 var_dump($age);
+
+?>
