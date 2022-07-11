@@ -49,7 +49,7 @@ $matches = [
     <h1>Basketball matches</h1>
     <ul>
         <?php for ($i = 0; $i < count($matches); $i++) : ?>
-            <li><?php echo $matches[$i]['homeTeam'] . " - " . $matches[$i]['guestTeam'] . " | " . $matches[$i]['homeScore'] . " - " . $matches[$i]['guestScore'] ?></li>
+            <li><?php echo $matches[$i]['homeTeam'] . " - " . $matches[$i]['guestTeam'] . " |<strong> " . $matches[$i]['homeScore'] . " - " . $matches[$i]['guestScore'] ?></strong></li>
         <?php endfor; ?>
     </ul>
 </body>
