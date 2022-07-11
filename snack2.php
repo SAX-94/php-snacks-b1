@@ -7,7 +7,7 @@ $age = $_GET["age"];
 function verifyAccess($name, $email, $age)
 {
     if (
-        strlen($name) >= 3 &&
+        strlen($name) > 3 &&
         strpos($email, '.') !== false &&
         strpos($email, '@') !== false &&
         !empty($age) &&
