@@ -43,4 +43,14 @@ $classe = [
     ],
 ];
 
-?>
+for ($i = 0; $i < count($classe); $i++) {
+    $studente = $classe[$i];
+
+    // sommando tutti i numeri presenti nell'array diviso la lunghezza dell'array = media voti
+    $voti = array_values($studente["voti"]);
+
+    // var_dump($studente["voti"], $voti);
+    $mediaVoti = round(array_sum($voti) / count($voti), 1);
+
+    echo $studente["nome"] . " " . $studente["cognome"] . " - <strong>" . $mediaVoti . "</strong><br>";
+}
